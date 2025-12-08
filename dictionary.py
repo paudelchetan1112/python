@@ -20,7 +20,7 @@ user.update({'online':False, 'followers':1000})
 print(user)
 
 # delete key value
-del user['status']
+del user['online']
 print(user)
 
 #to clear dictionary
